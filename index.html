@@ -6,17 +6,17 @@
   </head>
 
   <body>
-    <div id="app"></div>
-    <a href="https://google.com">Link to Google</a>
+    <link rel="stylesheet" href="src/styles.css" />
+    <a href="http://ashevillenc.gov">Link to Asheville</a>
     <br />
     <hr />
-    <form action="">
-      <label for="name">What is your name?</label>
-      <input type="text" id="name" /><br />
+    <form>
+      What is your name?
+      <input type="text" name="username" /><br />
       <hr />
       What is your quest?
       <select name="quest" id="quest_id">
-        <option value="none">Choose one...</option>
+        <option value="none chosen">Choose one...</option>
         <option value="grail">In search of the holy grail</option>
         <option value="dinner">In search of a good pizza</option> </select
       ><br />
@@ -32,7 +32,7 @@
       <hr />
       <input type="submit" value="Submit" />
     </form>
+    <div id="result"></div>
   </body>
-  <link rel="stylesheet" href="styles.css">
-  <script src="index.js"></script>
+  <script src="src/index.js"></script>
 </html>
