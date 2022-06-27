@@ -24,11 +24,11 @@ https://glitch.com/ tutorials
 
 ### Other
 ##### Some things I found that might be helpful. Maybe.
-https://p5js.org/ Simplified environment for graphics/music, "Processing" for JavaScript.
-https://javascript30.com/ More advanced tutorial challenges.
-https://getbootstrap.com/ Style templates. Rick recommends for quick styling of web pages.
-https://news.ycombinator.com/ Hacker News - Keep up with the latest.
-https://nodejs.org/ Node JS - Run JS scripts locally. Often used as a webserver, which has the advantage that the server code and the browser code are in the same language.
+- https://p5js.org/ Simplified environment for graphics/music, "Processing" for JavaScript.
+- https://javascript30.com/ More advanced tutorial challenges.
+- https://getbootstrap.com/ Style templates. Rick recommends for quick styling of web pages.
+- https://news.ycombinator.com/ Hacker News - Keep up with the latest.
+- https://nodejs.org/ Node JS - Run JS scripts locally. Often used as a webserver, which has the advantage that the server code and the browser code are in the same language.
 
 ## Web Development Documentation
 - https://developer.mozilla.org/en-US/ Good up-to-date web development documentation.
