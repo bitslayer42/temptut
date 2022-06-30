@@ -4,9 +4,10 @@ This repository has a little website that shows some web stuff. Look around and 
 - styles.css is the stylesheet. You can change fonts, colors, etc.
 - index.js is the JavaScript file. 
 
-## Assignment
+## Assignment 1
 - Create GitHub account. https://github.com/
 - Install Visual Studio Code https://code.visualstudio.com/
+- Install git https://git-scm.com/
 - Fork https://github.com/bitslayer42/temptut to your own Github account with the button in the upper right.
 - Clone a copy to your local computer from Visual Studio Code.
 - One way to run it locally and view the lame webpage is to install an extension in VSCode called Live Server.
@@ -14,6 +15,13 @@ This repository has a little website that shows some web stuff. Look around and 
 - Windows:
     * Show file extensions
     * Install Windows Terminal
+
+## Assignment 2
+- There are a few more important HTML tags to know. Search the web for "html table" and "html ul". I prefer the mozilla.org results, but you could look around a few sites and whatever you like is probably fine. Also look up "div" and "span".
+- In your copy of the temptut repo, create a new html file and a js file. You can use the existing files two.html and two.js as a template. Make sure you link to the js file inside the html file. 
+- Add a table and an unordered list. For a first step, just type values right into the html for each item, like make a times table and a grocery list, for example.
+- Now see if you can fill in the list with values using a "for of" loop. We didn't go over the index.js file, but I have added comments to each line. An example of a "for of" loop is in test.js.
+- Filling the table could be done similarly using an array of arrays, which I think I mentioned breifly, but didn't show you an example. Bonus points if you figure that one out!
 
 ## Random Resources
 ### Online programming environments - Sandbox
