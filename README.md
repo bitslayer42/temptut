@@ -1,5 +1,12 @@
 # Tutorial
-This repository has a few little websites that shows some web stuff. Look around and see you can figure it out. We will go over it when we meet next.
+This repository has a few little websites that shows some web stuff. 
+    <a href="one">one/index.html</a>
+    <a href="two">two/two.html</a>
+    <a href="test">test/test.html</a>
+    <a href="list">list/list.html</a>
+    <a href="models">models/models.html</a>
+
+## one
 - index.html is the main file. Notice how it links to the other two files. It has a form in it, which is how webpages can have text boxes and drop-down boxes.
 - styles.css is the stylesheet. You can change fonts, colors, etc.
 - index.js is the JavaScript file. 
