@@ -5,10 +5,10 @@ let left = 1;
 let right = 7;
 
 function show_pics() {
-    // left_pic.src ="img/Figure" + left + ".jpeg";
-    // right_pic.src = "img/Figure" + right + ".jpeg";
-    left_pic.src ="https://picsum.photos/id/" + left + "/200/300";
-    right_pic.src = "https://picsum.photos/id/" + right + "/200/300";
+    left_pic.src ="img/Figure" + left + ".jpeg";
+    right_pic.src = "img/Figure" + right + ".jpeg";
+    // left_pic.src ="https://picsum.photos/id/" + left + "/200/300";
+    // right_pic.src = "https://picsum.photos/id/" + right + "/200/300";
 }
 
 function next_pic(id) {
@@ -21,12 +21,17 @@ function next_pic(id) {
 
 show_pics();
 
-left_pic.addEventListener("click", () => {
+left_pic.addEventListener("click", left_listener)
+
+right_pic.addEventListener("click", right_listener)
+
+
+function left_listener() {
     left = next_pic(left)
     show_pics();
-})
+}
 
-right_pic.addEventListener("click", () => {
+function right_listener() {
     right = next_pic(right)
     show_pics();
-})
+}
