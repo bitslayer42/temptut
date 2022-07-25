@@ -5,6 +5,7 @@ This repository has a few little websites that shows some web stuff.
 <br><a href="test/test.html">test</a>
 <br><a href="list/list.html">list</a>
 <br><a href="models/models.html">models</a>
+<br><a href="tree/tree.html">tree</a>
 
 ## one
 - index.html is the main file. Notice how it links to the other two files. It has a form in it, which is how webpages can have text boxes and drop-down boxes.
@@ -28,7 +29,7 @@ This repository has a few little websites that shows some web stuff.
 - In your copy of the temptut repo, create a new html file and a js file. You can use the existing files two.html and two.js as a template. Make sure you link to the js file inside the html file. 
 - Add a table and an unordered list. For a first step, just type values right into the html for each item, like make a times table and a grocery list, for example.
 - Now see if you can fill in the list with values using a "for of" loop. We didn't go over the index.js file, but I have added comments to each line. An example of a "for of" loop is in test.js.
-- Filling the table could be done similarly using an array of arrays, which I think I mentioned breifly, but didn't show you an example. Bonus points if you figure that one out!
+- Filling the table could be done similarly using an array of arrays
 
 ## Random Resources
 ### Online programming environments - Sandbox

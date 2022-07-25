@@ -1,78 +1,78 @@
-let choiceTree = {
+let data = {
     "World": {
-        1: {
+        "1": {
             "Caption": "Do you want to travel in the US?",
-            "Picture": "USA,jpeg",
+            "Picture": "USA.jpg",
             "Next": "USA"
         },
-        2: {
+        "2": {
             "Caption": "Do you want to travel abroad?",
-            "Picture": "Paris.jpeg",
+            "Picture": "Paris.jpg",
             "Next": "Abroad"
         }
     },
     "USA": {
-        1: {
+        "1": {
             "Caption": "Do you want to visit cities?",
-            "Picture": "NewYork.jpeg",
+            "Picture": "NewYork.jpg",
             "Next": "USACities"
         },
-        2: {
+        "2": {
             "Caption": "Do you want to experience nature?",
-            "Picture": "Fjord.jpeg",
+            "Picture": "Fjord.jpg",
             "Next": "Nature"
         }        
     },
     "Abroad": {
-        1: {
+        "1": {
             "Caption": "Europe",
-            "Picture": "Rome,jpeg",
+            "Picture": "Rome.jpg",
             "Next": "Europe"
         },
-        2: {
+        "2": {
             "Caption": "Carribean",
-            "Picture": "Island.jpeg",
+            "Picture": "Island.jpg",
             "Next": "Carribean"
         },
-        3: {
+        "3": {
             "Caption": "Asia",
-            "Picture": "Japan.jpeg",
+            "Picture": "Japan.jpg",
             "Next": "Asia"
         }   
     },
     "USACities": {
-        1: {
+        "1": {
             "Caption": "Do you want to visit cities?",
-            "Picture": "NewYork.jpeg",
-            "Next": "USACities"
+            "Picture": "NewYork.jpg",
+            "Go": "USACities.html"
         }
     },
     "Nature": {
-        1: {
+        "1": {
             "Caption": "Do you want to experience nature?",
-            "Picture": "Fjord.jpeg",
-            "Next": "Nature"
+            "Picture": "Fjord.jpg",
+            "Go": "Nature.html"
         }        
     },
     "Europe": {
-        1: {
+        "1": {
             "Caption": "Europe",
-            "Picture": "Rome,jpeg",
-            "Next": "Europe"
+            "Picture": "Rome.jpg",
+            "Go": "Europe.html"
         }, 
     },
     "Carribean": {
-        1: {
+        "1": {
             "Caption": "Carribean",
-            "Picture": "Island.jpeg",
-            "Next": "Carribean"
+            "Picture": "Island.jpg",
+            "Go": "Carribean.html"
         },   
     },
     "Asia": {
-        1: {
+        "1": {
             "Caption": "Asia",
-            "Picture": "Japan.jpeg",
-            "Next": "Asia"
+            "Picture": "Japan.jpg",
+            "Go": "Asia.html"
         }   
     },
 }
