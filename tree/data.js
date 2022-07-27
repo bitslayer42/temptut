@@ -19,9 +19,9 @@ let data = {
         },
         "2": {
             "Caption": "Do you want to experience nature?",
-            "Picture": "Fjord.jpg",
+            "Picture": "Lake.jpg",
             "Next": "Nature"
-        }        
+        }
     },
     "Abroad": {
         "1": {
@@ -38,41 +38,41 @@ let data = {
             "Caption": "Asia",
             "Picture": "Japan.jpg",
             "Next": "Asia"
-        }   
+        }
     },
     "USACities": {
         "1": {
             "Caption": "Do you want to visit cities?",
             "Picture": "NewYork.jpg",
-            "Go": "USACities.html"
-        }
+            "Next": "USACities"
+        },
     },
     "Nature": {
         "1": {
             "Caption": "Do you want to experience nature?",
-            "Picture": "Fjord.jpg",
-            "Go": "Nature.html"
-        }        
+            "Picture": "Lake.jpg",
+            "Next": "Nature"
+        },
     },
     "Europe": {
         "1": {
             "Caption": "Europe",
             "Picture": "Rome.jpg",
-            "Go": "Europe.html"
-        }, 
+            "Next": "Europe"
+        },
     },
     "Carribean": {
         "1": {
             "Caption": "Carribean",
             "Picture": "Island.jpg",
-            "Go": "Carribean.html"
-        },   
+            "Next": "Carribean"
+        },
     },
     "Asia": {
         "1": {
             "Caption": "Asia",
             "Picture": "Japan.jpg",
-            "Go": "Asia.html"
-        }   
+            "Next": "Asia"
+        },
     },
 }
