@@ -12,19 +12,19 @@ function show_pics(level) {
 }
 
 function build_card_data(card_data) {
-    let box = document.createElement("div");
-    box.className = 'choices';
-    box.setAttribute("data-next",card_data.Next);
+    let card = document.createElement("div");
+    card.className = 'choices';
+    card.setAttribute("data-next",card_data.Next);
     let pic = document.createElement("img");
     pic.src = "img/" + card_data.Picture;
     let tag = document.createElement("h3");
     let text = document.createTextNode(card_data.Caption);
     tag.appendChild(text);
-    box.appendChild(pic);
-    box.appendChild(tag);
-    console.log("box", box)
-    mainbox.appendChild(box);
-    box.addEventListener("click", click_listener);
+    card.appendChild(pic);
+    card.appendChild(tag);
+    console.log("box", card)
+    mainbox.appendChild(card);
+    card.addEventListener("click", click_listener);
 }
 
 show_pics(data[chosen]);
