@@ -2,8 +2,8 @@
 
 .choices > img {
     object-fit: contain;
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
 }
 .choices > h3 {
     text-align: center;
