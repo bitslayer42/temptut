@@ -1,78 +1,78 @@
-let choiceTree = {
+let data = {
     "World": {
         1: {
             "Caption": "Do you want to travel in the US?",
-            "Picture": "USA,jpeg",
+            "Picture": "USA.jpg",
             "Next": "USA"
         },
         2: {
             "Caption": "Do you want to travel abroad?",
-            "Picture": "Paris.jpeg",
+            "Picture": "Paris.jpg",
             "Next": "Abroad"
         }
     },
     "USA": {
         1: {
             "Caption": "Do you want to visit cities?",
-            "Picture": "NewYork.jpeg",
+            "Picture": "NewYork.jpg",
             "Next": "USACities"
         },
         2: {
             "Caption": "Do you want to experience nature?",
-            "Picture": "Fjord.jpeg",
+            "Picture": "Lake.jpg",
             "Next": "Nature"
-        }        
+        }
     },
     "Abroad": {
         1: {
             "Caption": "Europe",
-            "Picture": "Rome,jpeg",
+            "Picture": "Rome.jpg",
             "Next": "Europe"
         },
         2: {
             "Caption": "Carribean",
-            "Picture": "Island.jpeg",
+            "Picture": "Island.jpg",
             "Next": "Carribean"
         },
         3: {
             "Caption": "Asia",
-            "Picture": "Japan.jpeg",
+            "Picture": "Japan.jpg",
             "Next": "Asia"
-        }   
+        }
     },
     "USACities": {
         1: {
-            "Caption": "Do you want to visit cities?",
-            "Picture": "NewYork.jpeg",
+            "Caption": "You are going to cities!",
+            "Picture": "NewYork.jpg",
             "Next": "USACities"
-        }
+        },
     },
     "Nature": {
         1: {
-            "Caption": "Do you want to experience nature?",
-            "Picture": "Fjord.jpeg",
+            "Caption": "You are going to experience nature!",
+            "Picture": "Lake.jpg",
             "Next": "Nature"
-        }        
+        },
     },
     "Europe": {
         1: {
-            "Caption": "Europe",
-            "Picture": "Rome,jpeg",
+            "Caption": "You are going to Europe!",
+            "Picture": "Rome.jpg",
             "Next": "Europe"
-        }, 
+        },
     },
     "Carribean": {
         1: {
-            "Caption": "Carribean",
-            "Picture": "Island.jpeg",
+            "Caption": "You are going to the Carribean!",
+            "Picture": "Island.jpg",
             "Next": "Carribean"
-        },   
+        },
     },
     "Asia": {
         1: {
-            "Caption": "Asia",
-            "Picture": "Japan.jpeg",
+            "Caption": "You are going to Asia!",
+            "Picture": "Japan.jpg",
             "Next": "Asia"
-        }   
+        },
     },
 }
