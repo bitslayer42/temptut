@@ -20,8 +20,17 @@
     cursor: pointer;
 }
 
-#mainbox {
+#mainbox{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#titlebox {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.choices > h2 {
+    text-align: center;
+    font-family: sans-serif;
 }

@@ -1,10 +1,12 @@
 
+let titlebox = document.querySelector("#titlebox");
 let mainbox = document.querySelector("#mainbox");
 
 let chosen = "World";
 
 function show_pics(level) {
     mainbox.innerHTML = "";
+    titlebox.innerHTML = chosen;
     for (choicenum in level){  // 'for of' is for arrays, 'for in' iterates the keys of objects
         let card_data = level[choicenum]
         build_card_data(card_data)
@@ -17,9 +19,13 @@ function build_card_data(card_data) {
     card.setAttribute("data-next",card_data.Next);
     let pic = document.createElement("img");
     pic.src = "img/" + card_data.Picture;
+    let title = document.createElement("h2");
+    let next = document.createTextNode(card_data.Next);
     let tag = document.createElement("h3");
     let text = document.createTextNode(card_data.Caption);
+    title.appendChild(next);
     tag.appendChild(text);
+    card.appendChild(title);
     card.appendChild(pic);
     card.appendChild(tag);
     console.log("box", card)
@@ -30,6 +36,6 @@ function build_card_data(card_data) {
 show_pics(data[chosen]);
 
 function click_listener(event) {
-    let next = event.currentTarget.getAttribute("data-next")
-    show_pics(data[next]);
+    chosen = event.currentTarget.getAttribute("data-next")
+    show_pics(data[chosen]);
 }
